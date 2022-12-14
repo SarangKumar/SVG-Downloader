@@ -15,8 +15,8 @@ const Navigation = () => {
                     <li><NavLink className={({ isActive }) => isActive ? 'nav_active' : 'nav_links'} to='/'>Homepage</NavLink></li>
                     <li>•</li>
                     <li><NavLink className={({ isActive }) => isActive ? 'nav_active' : 'nav_links'} to='/about'>About</NavLink></li>
-                    <li>•</li>
-                    <li><NavLink className={({ isActive }) => isActive ? 'nav_active' : 'nav_links'} to='/login'>Login</NavLink></li>
+                    {/* <li>•</li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'nav_active' : 'nav_links'} to='/login'>Login</NavLink></li> */}
                 </ul>
             </nav>
         </div>
